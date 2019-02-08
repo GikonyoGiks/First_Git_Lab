@@ -1,0 +1,137 @@
+body{
+  font-family:'helvetica',Sans-Serif;
+  font-size: 16px;
+}
+.topmenu {
+  background-color: green;
+  overflow: hidden;
+  text-align:center;
+}
+.topmenu a{
+  display:flex;
+  float: left;
+  color: white;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 19px;
+  text-align: center;
+}
+.topmenu a:hover {
+  background-color: green;
+  color: blue;
+}
+.brand-image{
+  background-color:white;
+}
+.brand-image a:hover{
+  background-color:white;
+}
+.topmenu input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top:1px;
+  margin-right: 1px;
+  font-size: 17px;
+}
+.secondtopmenu{
+  margin: auto;
+  width: 50%;
+  border: 3px solid white;
+  padding: 10px;
+  text-align:center;
+  font-size: 15px;
+}
+.secondtopmenu li{
+  list-style:none;
+  display:inline;
+  margin:5px;
+  font-size:16px;
+}
+.secondtopmenu a{
+  text-decoration: none;
+  color:black;
+}
+.secondtopmenu a:hover {
+  background-color: black;
+  color: white;
+}
+.backgroundimage img{
+  border-radius:8px;
+  width:100%;
+}
+.contentsection1{
+  overflow:hidden;
+  position:relative;
+  display:flex;
+  float:left;
+  background-color: green;
+  color:white;
+  width:100%;
+}
+p{
+  text-align:justify;
+  width:340px;
+}
+
+#MPESA{
+  border:1px solid white;
+}
+#FTTH{
+  border:1px solid white;
+  margin-left:130px;
+}
+#masoko{
+  border:1px solid white;
+  margin-left:162px;
+}
+h2{
+  text-align: center;
+  text-shadow: v-shadow;
+  text-shadow: 2px 2px grey;
+  color:white;
+  
+}
+h3{
+  text-align: center;
+  text-transform: capitalize;
+  word-spacing: 5px;
+  text-decoration: underline;
+  color:#0D9347;
+  
+}
+
+#video{
+  display:flex;
+  float:left;
+  flex-direction:row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+div#video .naweza{
+  background-color: white;
+  background-size: 90%;
+  text-align: justify;
+  line-height: 30px;
+  padding-right: 10px;
+  font-size: 12px;
+  color:black;
+  width:100%;
+  display:flex;
+  overflow: auto;
+}
+  
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  height:35px;
+}
+div#video li{
+  color:blue;
+  align-items: inline;
+}
